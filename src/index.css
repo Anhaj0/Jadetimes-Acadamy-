@@ -1,0 +1,169 @@
+@import "tailwindcss";
+@import 'https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap';
+
+
+ :root {
+  --primary-pink: #B52E8C;
+  --secondary-blue: #3BA9F9;
+}
+
+/* Home-page Styles */
+
+.headerFont {
+  font-family: 'Montserrat', sans-serif;
+  background-color: black;
+}
+
+.headingFont {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  margin: 0 auto;
+  padding: 0 ;
+  color:#9b7f00;
+}
+
+.DifferentFont {
+  font-family: 'Open Sans', sans-serif;
+  background-color: white;
+}
+
+.SearchbyFont {
+      font-family: Arial, sans-serif;
+      background-color: white;
+    }
+
+.LocationFont {
+      font-family: "Inter", sans-serif;
+      height: auto;
+      padding: 4rem 2rem;
+    }
+.bg-location{
+  background-image: url('../dist/assets/bg-location-p39YHSun-p39YHSun.jpg'); /* adjust path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.StudentFont {
+  font-family: 'Open Sans', sans-serif;
+  background-color: black;
+  color: white;
+}
+
+.EventsFont{
+  font: sans-serif;
+}
+
+.OurfacultyFont {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.FooterFont{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.FollowusFont {
+  font-family: "Inter", sans-serif;
+  background-color: white;
+}
+
+.tracking-widest-2 {
+  letter-spacing: 0.2em;
+}
+
+.uppercase-small {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+}
+
+   /* About-page Styles */
+
+.WelcomeFont {
+      font-family: "Open Sans", sans-serif;
+    }
+
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+    .no-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+
+/* Program Finder Styles */
+
+.FindYourProgramFont {
+  font-family: "Inter", sans-serif;
+}
+
+/* Resources and Information Styles */
+.ResourcesandInformationFont {
+  font-family: 'Montserrat', sans-serif;
+}
+
+    .AdmissionsFont {
+     overflow-x: hidden;
+    }
+
+/* blog search styles */
+
+.nav-font {
+      font-family: Arial, sans-serif;
+      letter-spacing: 0.05em;
+      font-weight: 500;
+    }
+
+/* partnership styles */
+
+PartnershipFont {
+      font-family: 'Montserrat', sans-serif;
+    }
+
+/* Festival styles */
+
+FestivalFont {
+      font-family: "Roboto Mono", monospace;
+    }
+
+/* Headlines styles */
+
+.tracking-widest {
+      letter-spacing: 0.1em;
+    }
+    /* Style for the trending image to match original text style */
+    .trending-label {
+      display: inline-block;
+      background-color: white;
+      color: black;
+      font-family: monospace;
+      font-weight: 600;
+      font-size: 10px;
+      letter-spacing: 0.1em;
+      padding: 0.25rem 0.5rem;
+      margin-bottom: 0.5rem;
+      user-select: none;
+    }
+
+    .ExploreFont {
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    .BrowsebyDisciplineFont{
+      font-family: 'Barlow', sans-serif;
+    }
+
+    .BlogSearchFont {
+            font-family: 'Lato', sans-serif;
+        }
+        /* For the accessibility button */
+        .fixed-btn {
+            position: fixed;
+            top: 140px;
+            right: -10px;
+            transform: translateY(-50%);
+            z-index: 1000;
+        }
